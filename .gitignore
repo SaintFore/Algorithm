@@ -1,4 +1,6 @@
 output/
+!output/data.in
+!output/data.out
 
 # IDE
 .vscode/
