@@ -15,9 +15,10 @@ int main(){
     }
     
     printf("%d\n",sum % MOD);
-     //1e6是科学计数法，e后面是指数位，不过这个是一个double类型，我将其强转为int类型
+    //1e6是科学计数法，e后面是指数位，不过这个是一个double类型，我将其强转为int类型
     printf("Time used = %.2f\n",(double)clock()/CLOCKS_PER_SEC); //用于计算时间，clock()函数会统计代码开始运行的时间
-    
+    //win可以使用管道把数值送进去，也就是echo 值 | 程序名
+    //多个值，多个程序就是 echo v1 v2 | p1 | p2
     return 0;
 
 }
